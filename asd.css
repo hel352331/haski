@@ -1,0 +1,142 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+a {
+ color: white;
+ text-decoration: none;
+ text-weight: bold;
+ display: inline-block;
+ margin-right: 40px;
+}
+
+img {
+ display: inline-block;
+ vertical-align: middle;
+}
+
+main {
+ background-color: #92FFB7;
+}
+section {
+ text-align:center;
+}
+
+
+a:hover {
+ color: orange;
+ background: grey;
+}
+
+.header {
+ width: 100%;
+ background: #024919;
+ color: white;
+ min-height: 45px;
+ padding: 10px;
+ box-sizing: border-box;
+ text-align: right;
+}
+.main {
+ width:450px;
+ border-radius: 70px;
+/* border-top-left-radius
+ */}
+.arrow {
+ wigth: 200px;
+ height: 90px;
+ padding: 10px;
+}
+
+.dogs {
+ wigth: 200px;
+ height: 90px;
+ padding: 10px;
+}
+
+section.center {
+	display: inline-block;
+	border: 3px solid black;
+	width: 30%;
+	padding: 50px, 50px, 30px, 30px;
+}
+
+section.dog-image img{
+	width:200px;
+	margin:0 auto;
+	border-radius:70px;
+
+}
+
+
+section.dog-image{
+	
+	width:180px;
+	margin:0 auto;
+	padding-top:10px;
+
+}
+
+
+.chars, .price {
+	display: inline-block;
+	width:35%;
+	padding-left: 35px;
+	vertical-align: middle;
+	text-align:center;
+	border: 1px solid black;
+	min-height: 60px;
+}
+
+
+.photo {
+	border: 1px solid black;
+	text-align: right;
+	
+}
+
+.photo img {
+display:none;
+width: 270px;
+}
+p:hover + img {
+	display:block;
+
+}
+.nav {
+ background-color: #55C987;
+ text-align: center;
+ padding: 20px;
+ box-sizing: border-box;
+ border-top: 1px solid white;
+ 
+}
+.nav a:hover {
+ color: #064421;
+ background: #D0EBB8;
+ text-weight: bold;
+}
+a.nav-color {
+ color: yellow;
+ text-decoration: underline;
+}
+.li li {
+ display: inline-block;
+}
+
+.a {
+width:50px;
+}
+
+.up {
+position:fixed;
+right:20px;
+bottom:20px;
+}
+
+.down {
+position: fixed;
+right:20px;
+top:20px;
+}
